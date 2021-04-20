@@ -43,6 +43,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           likeList.append(li)
         })
     }
+    
     form.onsubmit=(e)=>{
       e.preventDefault()
       list.innerHTML+=`<p>${comment.value}</p>`
