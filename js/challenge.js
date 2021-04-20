@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   const like=document.getElementById('heart')
   const likeList=document.getElementsByTagName('ul')[0]
   const form=document.getElementById('comment-form')
+  const commentList=document.getElementById('list')
   
   let isPlaying=true;
   const likes=[]
