@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   const pause=document.getElementById('pause')
   const like=document.getElementById('heart')
   const likeList=document.getElementsByTagName('ul')[0]
-  const form=document.getElementById('form')
+  const form=document.getElementById('comment-form')
   
   let isPlaying=true;
   const likes=[]
