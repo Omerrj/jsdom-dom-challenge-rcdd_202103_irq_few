@@ -45,6 +45,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
     form.onsubmit=(e)=>{
       e.preventDefault()
-      list.append(`${comment.value}`)
+      list.append(`<p>${comment.value}</p>`)
     }
 });
