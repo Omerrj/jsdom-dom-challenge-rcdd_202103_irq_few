@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           likeList.append(li)
         })
     }
-    form.onsubmit=()={
+    form.onsubmit=(e)=>{
       
     }
 });
